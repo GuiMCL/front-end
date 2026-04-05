@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "web-cha",
-      cwd: "/root/apps/cha-de-panela/web",
+      cwd: "/root/apps/front-end",
       script: "npm",
       args: "run start",
       instances: 1,
