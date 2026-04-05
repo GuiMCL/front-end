@@ -29,7 +29,6 @@ export default function EventoPainelPage() {
     setLoading(true)
     authFetch(`${API_URL}/api/events/${id}`)
       .then((res) => {
-        if (res.status === 401) { router.push('/login'); return null }
         if (!res.ok) { setError('Evento não encontrado'); return null }
         return res.json()
       })
