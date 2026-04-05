@@ -1,1 +1,1 @@
-export function middleware() {}
+export { } // middleware vazio
